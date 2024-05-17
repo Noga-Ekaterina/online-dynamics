@@ -1,0 +1,107 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+    .hero__title {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 992px) {
+    body,
+    .post-form__content {
+        background: #FFF7ED;
+    }
+
+    .hero__title {
+        font-size: 46px;
+        color: #212529;
+    }
+
+    .main__line {
+        width: 100%;
+    }
+
+    .post-form__dialog {
+        min-width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+  .header__title, .main-btn {
+    font-size: 12px !important;
+  }
+
+  .header__icon {
+      width: 28px;
+  }
+
+  .header__label{
+    font-size: 10px;
+  }
+
+  .hero__title{
+    font-size: 24px;
+  }
+
+  .hero__subtitle {
+      font-size: 14px !important;
+  }
+
+  .title-2{
+    font-size: 22px !important;
+    font-weight: 600;
+  }
+
+  .main__line{
+    max-width: 100px;
+  }
+
+  .main__list{
+    font-size: 16px !important;
+    padding-inline: 16px;
+  }
+
+  .block-form__input{
+    font-size: 16px !important;
+  }
+
+  .post-form__title{
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 768px){
+  .logo{
+    width: 48px;
+  }
+
+  .header__btn-text{
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+    .hero__subtitle {
+        text-align: center !important;
+    }
+
+  .header__icon {
+      width: 18px;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .main__list{
+    font-size: 14px !important;
+    padding-inline: 14px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+  
+}

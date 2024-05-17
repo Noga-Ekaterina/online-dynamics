@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100 900;
+  /* font-display: swap; */
+  src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+  /* unicode-range: U+0301, U+0400-045F, U+0490-049 1, U+04B0-04B1, U+2116; */
+}
+
+@keyframes show-modal {
+  to{
+    transform: scale(0);
+  }
+
+  from{
+    transform: scale(1);
+  }
+}
+
+body {
+  min-width: 354px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  margin: 0;
+}
+
+/* Стили для шапки */
+.logo{
+  width: 34px;
+}
+
+.header__title {
+  color: #343a40;
+}
+
+.header__label{
+  line-height: 120%;
+  position: relative;
+  top: -4px;
+}
+
+.header__icon{
+  position: relative;
+  transition: 0.5s;
+  width: 36px;
+}
+
+.header__btn-text{
+  font-size: 10px;
+}
+
+/* Стили для основного контентп */
+
+.hero__title{
+  line-height: 138%;
+  max-width: 658px;
+}
+
+.text-gray{
+  color: #999999;
+}
+
+.main__list{
+  color: #343a40;
+}
+
+.block-form{
+  max-width: 621px;
+}
+
+/* Стили для модального окна */
+
+#modal-bg{
+  display: none;
+}
+
+.show +#modal-bg{
+  display: block;
+  opacity: 0.5;
+}
+
+.post-form__content{
+  transition: .3s;
+  transform: scale(0);
+}
+
+.show .post-form__content{
+  animation: show-modal .3s reverse;
+  transform: scale(1);
+}
+
+.post-form__title{
+  font-family: 'Amita', sans-serif;
+}
+
+/* Стили для подвала */
+
+footer{
+  background: #4F4F4F;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
