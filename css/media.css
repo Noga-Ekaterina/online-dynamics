@@ -58,7 +58,8 @@
     max-width: 100px;
   }
 
-     .block-form__input{
+  .block-form__input,
+  .post-form__btn{
     font-size: 16px !important;
   }
 

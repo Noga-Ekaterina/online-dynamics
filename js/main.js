@@ -6,17 +6,25 @@ document.getElementById("submit-form").addEventListener("submit", (event)=> {
 });
 
 postForm.addEventListener('click', (event)=> {
-   closeModal(event);
+   if (event.target===postForm) {
+      closeModal()
+   }
 })
+
+document.querySelectorAll('.close-modal').forEach(item=>{
+   item.addEventListener('click', (event)=>{
+      if (event.target===item) {
+         closeModal()
+      }
+   })
+});
 
 function openModal() {
    postForm.classList.add('show');
    postForm.style.display = 'block';
 }
 
-function closeModal(event) {
-   if (event.target===postForm || event.target===document.getElementById('close-modal')) {
-      postForm.classList.remove('show');
-      postForm.style.display = 'none';
-   }
+function closeModal(){
+   postForm.classList.remove('show');
+   postForm.style.display = 'none'; 
 }
