@@ -58,12 +58,7 @@
     max-width: 100px;
   }
 
-  .main__list{
-    font-size: 16px !important;
-    padding-inline: 16px;
-  }
-
-  .block-form__input{
+     .block-form__input{
     font-size: 16px !important;
   }
 
@@ -81,6 +76,12 @@
     font-size: 14px;
     line-height: 30px;
   }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+   .main__list{
+      font-size: 29px !important;
+   }
 }
 
 @media (max-width: 576px) {
