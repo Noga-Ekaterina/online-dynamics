@@ -26,6 +26,10 @@
     .post-form__dialog {
         min-width: 800px;
     }
+
+    .contacts__img{
+      width: 200px !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -33,17 +37,17 @@
     max-width: 100px;
   }
 
-  .title-2,
-  .contacts__text{
+  .title-2{
    font-size: 30px !important;
  }
 
- .main__list{
+ .main__list,
+ .contacts__text{
    font-size: 23px !important;
  }
 
  .contacts__link{
-   font-size: 28px;
+   font-size: 20px;
  }
 }
 
@@ -59,16 +63,13 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px){
-   .main__list{
+   .main__list,
+   .contacts__text{
       font-size: 32px !important;
    }
 
-   .contacts__text{
-      font-size: 42px !important;
-   }
-
    .contacts__link{
-      font-size: 36px !important;
+      font-size: 28px !important;
    }
 }
 
@@ -98,7 +99,7 @@
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
    .header__title, .main-btn {
       font-size: 12px !important;
     }
@@ -106,6 +107,12 @@
    .hero__subtitle{
       font-size: 18px;
    }
+
+  .main__list,
+  .contacts__text,
+  .contacts__link{
+    font-size: 16px !important;
+  }
 }
 
 @media (max-width: 360px) {
@@ -121,21 +128,15 @@
       font-size: 22px !important;
       font-weight: 600 !important;
     }
-  .main__list{
+  .main__list,
+  .contacts__text,
+  .contacts__link{
     font-size: 14px !important;
     padding-inline: 14px;
-  }
-
-  .contacts__text{
-   font-size: 22px !important;
-  }
-
-  .contacts__link{
-   font-size: 20px !important;
   }
 
   footer {
     font-size: 12px;
   }
   
-}
+}           
