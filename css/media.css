@@ -29,47 +29,22 @@
 }
 
 @media (max-width: 768px) {
-  .header__title, .main-btn {
-    font-size: 12px !important;
-  }
-
-  .header__icon {
-      width: 28px;
-  }
-
-  .header__label{
-    font-size: 10px;
-  }
-
-  .hero__title{
-    font-size: 24px;
-  }
-
-  .hero__subtitle {
-      font-size: 14px !important;
-  }
-
-  .title-2{
-    font-size: 22px !important;
-    font-weight: 600;
-  }
-
   .main__line{
     max-width: 100px;
   }
 
-  .main__list{
-    font-size: 16px !important;
-    padding-inline: 16px;
-  }
+  .title-2,
+  .contacts__text{
+   font-size: 30px !important;
+ }
 
-  .block-form__input{
-    font-size: 16px !important;
-  }
+ .main__list{
+   font-size: 23px !important;
+ }
 
-  .post-form__title{
-    font-size: 18px !important;
-  }
+ .contacts__link{
+   font-size: 28px;
+ }
 }
 
 @media (min-width: 768px){
@@ -83,21 +58,80 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 992px){
+   .main__list{
+      font-size: 32px !important;
+   }
+
+   .contacts__text{
+      font-size: 42px !important;
+   }
+
+   .contacts__link{
+      font-size: 36px !important;
+   }
+}
+
 @media (max-width: 576px) {
-    .hero__subtitle {
-        text-align: center !important;
+   .header__title, .main-btn {
+      font-size: 18px !important;
+    }
+  
+    .header__icon {
+        width: 28px;
+    }
+  
+    .header__label{
+      font-size: 10px;
     }
 
   .header__icon {
       width: 18px;
   }
+  
+  .title-2,
+  .contacts__text{
+   font-size: 25px !important;
+  }
+  .contacts__link{
+   font-size: 22px;
+  }
+}
+
+@media (max-width: 460px) {
+   .header__title, .main-btn {
+      font-size: 12px !important;
+    }
+
+   .hero__subtitle{
+      font-size: 18px;
+   }
 }
 
 @media (max-width: 360px) {
-
+   .hero__title{
+      font-size: 24px;
+    }
+  
+    .hero__subtitle {
+        font-size: 14px !important;
+    }
+  
+    .title-2{
+      font-size: 22px !important;
+      font-weight: 600 !important;
+    }
   .main__list{
     font-size: 14px !important;
     padding-inline: 14px;
+  }
+
+  .contacts__text{
+   font-size: 22px !important;
+  }
+
+  .contacts__link{
+   font-size: 20px !important;
   }
 
   footer {

@@ -74,6 +74,7 @@ p{
 
 #modal-bg{
   display: none;
+  min-width: 360px;
 }
 
 .show +#modal-bg{
@@ -89,6 +90,10 @@ p{
 .show .post-form__content{
   animation: show-modal .3s reverse;
   transform: scale(1);
+}
+
+.post-form__close{
+   line-height: 100% !important;
 }
 
 .post-form__title{
