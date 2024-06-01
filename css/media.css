@@ -48,7 +48,6 @@
 
  .contacts__link{
    font-size: 20px;
- }
 }
 
 @media (min-width: 768px){
@@ -107,14 +106,12 @@
    .hero__subtitle{
       font-size: 18px;
    }
-
   .main__list,
   .contacts__text,
   .contacts__link{
     font-size: 16px !important;
   }
 }
-
 @media (max-width: 360px) {
    .hero__title{
       font-size: 24px;
@@ -133,6 +130,14 @@
   .contacts__link{
     font-size: 14px !important;
     padding-inline: 14px;
+  }
+
+  .contacts__text{
+   font-size: 22px !important;
+  }
+
+  .contacts__link{
+   font-size: 20px !important;
   }
 
   footer {
