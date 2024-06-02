@@ -32,6 +32,18 @@
     }
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+   .main__list,
+   .main-btn{
+      font-size: 20px !important;
+   }
+
+   .main-btn{
+      padding-left: 38px !important;
+      padding-right: 38px !important;
+   }
+}
+
 @media (max-width: 768px) {
    .logo{
       width: 36px;
