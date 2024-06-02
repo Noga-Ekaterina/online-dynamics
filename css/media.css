@@ -33,6 +33,9 @@
 }
 
 @media (max-width: 768px) {
+   .logo{
+      width: 36px;
+    }
   .main__line{
     max-width: 100px;
   }
@@ -52,10 +55,6 @@
 }
 
 @media (min-width: 768px){
-  .logo{
-    width: 48px;
-  }
-
   .header__btn-text{
     font-size: 14px;
     line-height: 30px;
@@ -71,6 +70,10 @@
    .contacts__link{
       font-size: 28px !important;
    }
+
+   .post-form__title{
+      font-size: 32px;
+     }
 }
 
 @media (max-width: 576px) {
@@ -85,10 +88,6 @@
     .header__label{
       font-size: 10px;
     }
-
-  .header__icon {
-      width: 18px;
-  }
   
   .title-2,
   .contacts__text{
@@ -100,21 +99,36 @@
 }
 
 @media (max-width: 480px) {
-   .header__title, .main-btn {
+   .logo{
+      width: 24px;
+   }
+   
+   .header__title {
       font-size: 12px !important;
     }
 
-   .hero__subtitle{
-      font-size: 18px;
+    .header__icon {
+      width: 18px;
+  }
+
+   .hero__subtitle,
+   .post-form__btn{
+      font-size: 18px !important;
    }
 
+   .main-btn{
+      font-size: 14px !important;
+   }
   .main__list,
   .contacts__text,
   .contacts__link{
     font-size: 16px !important;
   }
-}
 
+  .post-form__title{
+   font-size: 22px;
+  }
+}
 @media (max-width: 360px) {
    .hero__title{
       font-size: 24px;
@@ -133,6 +147,14 @@
   .contacts__link{
     font-size: 14px !important;
     padding-inline: 14px;
+  }
+
+  .contacts__text{
+   font-size: 22px !important;
+  }
+
+  .contacts__link{
+   font-size: 20px !important;
   }
 
   footer {
